@@ -21,7 +21,7 @@ export default function Projects(props: ProjectsProps) {
                     {projects.map((project, idx) => (
                         <section className="project" key={idx}>
                             <div className="">
-                                <p>
+                                <p className='text-lg'>
                                     {`0${idx} — `}{project.name}
                                 </p>
                                 <div>
