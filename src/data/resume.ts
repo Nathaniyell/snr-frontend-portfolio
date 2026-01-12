@@ -238,7 +238,7 @@ const recommendations: Recommendation[] = [
     {
         user: {
             name: 'Professor Edu Inam',
-            role: 'Head of Department, Department of Chemistry at University of Uyo',
+            role: 'Head of Department, Department of Chemistry, University of Uyo, Nigeria.',
             linkedInUrl: 'https://ng.linkedin.com/in/edu-inam-bb15b68b'
         },
         feedback: 'Nathaniel transformed our department\'s digital presence with the Chemistry website project. His attention to detail, understanding of academic requirements, and ability to create a user-friendly platform for students, staff, and researchers was remarkable. He worked closely with our team to ensure the website met all our needs while maintaining modern design standards. The project was delivered on time, and Nathaniel\'s professionalism throughout the process was exemplary. We couldn\'t be happier with the result.'
@@ -249,7 +249,7 @@ const recommendations: Recommendation[] = [
             role: 'CEO at Tovero & AICCEES',
             linkedInUrl: 'https://ng.linkedin.com/in/veronica-akpasoh-phd-165717a6'
         },
-        feedback: 'Nathaniel delivered an exceptional conference management platform for AICCEES that handled complex registration workflows, abstract submissions, and schedule management flawlessly. His ability to understand our unique requirements and translate them into a seamless user experience was impressive. He maintained clear communication throughout the project, was responsive to feedback, and delivered a solution that exceeded our expectations. The platform successfully managed hundreds of international participants, and Nathaniel\'s technical expertise and dedication were key to our event\'s success.'
+        feedback: 'Nathaniel delivered an exceptional conference website for AICCEES that handled complex registration workflows and abstract submissions. His ability to understand our unique requirements and translate them into a seamless user experience was impressive. He maintained clear communication throughout the project, was responsive to feedback, and delivered a solution that exceeded our expectations. The website successfully managed hundreds of international participants, and Nathaniel\'s technical expertise and dedication were key to our event\'s success.'
     },
 ];
 
