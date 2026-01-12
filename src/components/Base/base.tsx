@@ -74,7 +74,7 @@ export default function Base({menu}: any) {
             <div className="footer">
                 <img className="w-16 h-16 rounded-full" src="/icons/apple-touch-icon.png" alt=""/>
                 <div className="social">
-                    <a href="https://github.com/thaniyell" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Nathaniyell" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-github"></i> Github
                         <img src={arrow} alt="pointer"/>
                     </a>
@@ -83,7 +83,7 @@ export default function Base({menu}: any) {
                         <i className="fab fa-linkedin"></i> LinkedIn <img src={arrow} alt="pointer"/>
                     </a>
 
-                    <a href="https://twitter.com/_kvngNath" target="_blank" rel="noopener noreferrer">
+                    <a href="https://x.com/_kvngNath" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-twitter"></i> Twitter <img src={arrow} alt="pointer"/>
                     </a>
                 </div>
