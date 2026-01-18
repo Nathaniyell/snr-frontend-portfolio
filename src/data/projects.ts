@@ -27,17 +27,17 @@ const bootstrap: Tech = {name: 'Bootstrap', badgeColor: '#7952B3'};
 const supabase: Tech = {name: 'Supabase', badgeColor: '#000000'};
 
 export const projects: Project[] = [
-    // {
-    //     name: 'Anomaly Forex',
-    //     description: 'A comprehensive Forex Prop Firm platform built with modern web technologies. Features include trading account management, challenge evaluation systems, real-time trading analytics, and seamless payment processing for prop trading challenges.',
-    //     technologies: [nextjs, tailwindcss],
-    //     links: [
-    //         {
-    //             name: 'web',
-    //             url: 'https://anomalyforex.com',
-    //         },
-    //     ],
-    // },
+    {
+        name: 'Anomaly Forex',
+        description: 'A comprehensive Forex Prop Firm platform built with modern web technologies. Features include trading account management, challenge evaluation systems, real-time trading analytics, and seamless payment processing for prop trading challenges.',
+        technologies: [nextjs, tailwindcss],
+        links: [
+            {
+                name: 'web',
+                url: 'https://anomalyforex.com',
+            },
+        ],
+    },
     // {
     //     name: 'PlotWeaver',
     //     description: 'An AI-powered Movie Production Platform designed to streamline the creative process for filmmakers. Features include AI-assisted script generation, story development tools, production planning, and collaborative workspace for creative teams.',
