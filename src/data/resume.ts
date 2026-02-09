@@ -221,6 +221,14 @@ const recommendations: Recommendation[] = [
     },
     {
         user: {
+            name: 'Jennifer Bland',
+            role: 'Sr. Software Engineer and Google Developers Expert',
+            linkedInUrl: 'https://www.linkedin.com/in/ratracegrad/'
+        },
+        feedback: "Nathaniel is a great developer and a great person. He joined us midway, took ownership of an existing Nuxt.js codebase with multiple bugs, and successfully fixed critical issues while improving performance and code quality. He also refactored the codebase, built new components and suggested meaningful optimizations that helped us ship the product. He demonstrated strong experience with various tools in the Vue.js ecosystem, including NuxtHub, Vuex, and Pinia."
+    },
+    {
+        user: {
             name: 'Vibhanshu Karn',
             role: 'CEO at Stykite',
             linkedInUrl: 'https://in.linkedin.com/in/vibhanshukarn'
