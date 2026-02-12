@@ -213,6 +213,14 @@ const hobbies = ['Music', 'Gaming'];
 const recommendations: Recommendation[] = [
     {
         user: {
+            name: 'Steph Drennon',
+            role: 'Founder and CEO at ARK',
+            linkedInUrl: 'https://www.linkedin.com/in/vancouverbeliever/'
+        },
+        feedback: 'Nathaniel is a solid gentlemen and competent developer. His commitment has been a blessing to ARK and we appreciate his leadership and look forward to continuing our relationship with him as a developer and a friend. '
+    },
+    {
+        user: {
             name: 'Damon Guzman',
             role: 'Founder and CEO at Fastyr AI',
             linkedInUrl: 'https://www.linkedin.com/in/damon-guzman-40aa5b198'
