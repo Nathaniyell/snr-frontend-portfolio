@@ -203,12 +203,12 @@ const languages: Language[] = [
         level: 'PROFICIENT',
     },
     {
-        name: 'Spanish',
+        name: 'French',
         level: 'LEARNING :)',
     },
 ];
 
-const hobbies = ['Music', 'Gaming'];
+const hobbies = ['Academic Research', 'Reading', 'Writing', 'Listening to Music', 'Watching Movies'];
 
 const recommendations: Recommendation[] = [
     {
