@@ -31,7 +31,7 @@ export default function Resume(props: ResumeProp) {
                 <div className="top_row">
                     <h2>{resume.name}</h2>
                     <div className="buttons">
-                        <a href="https://drive.google.com/file/d/18rmSPcoLdqLM1ftN2UD3VP0CusFlJt2c/view?usp=sharing" download target="_blank" rel="noopener noreferrer">
+                        <a href="https://docs.google.com/document/d/1nc6uTcoHMYDh5XNPqfq0-AKG6engKUB6px4M5V54qV0/edit?usp=sharing" download target="_blank" rel="noopener noreferrer">
                             <small>
                                 <i className="fas fa-download"></i> <span>Download </span>
                             </small>
