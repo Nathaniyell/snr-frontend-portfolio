@@ -101,7 +101,7 @@ const workExperiences: WorkExperience[] = [
         company: 'Rylio',
         role: 'Lead Software Engineer',
         startDate: 'MAR 2025',
-        endDate: 'OCT 2025',
+        endDate: 'February 2026',
         achievements: [
             "Led the end-to-end development of an ESG reporting platform, overseeing frontend architecture, backend integration, and AI-assisted features to support enterprise sustainability reporting workflows.",
             "Designed and implemented ESG data entry interfaces using Next.js and Tailwind CSS, enabling structured, user-friendly capture of complex environmental, social, and governance datasets.",
