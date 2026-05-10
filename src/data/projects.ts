@@ -51,7 +51,7 @@ export const projects: Project[] = [
         name: 'Rylio',
         description: 'A sustainability reporting platform that simplifies data collection, report generation, and progress tracking for organizations. Designed to make sustainability reporting quick, transparent, and accessible for businesses of all sizes.',
         category: 'SaaS',
-        technologies: [nextjs, tailwindcss, postgresql],
+        technologies: [nextjs, tailwindcss, postgresql, express],
         links: [
             {
                 name: 'web',
