@@ -58,9 +58,9 @@ export interface Resume {
 
 const name = 'Nathaniel Essien';
 
-const title = 'Front End Developer';
+const title = 'Software Engineer';
 
-const intro = "Senior Frontend Developer with 5 years of experience building scalable, high-impact web applications across fintech, SaaS, AI-enabled products, and compliance-driven systems. Specialized in Next.js, React, and TypeScript, with proven leadership in owning frontend architecture, real-time collaboration features, and AI-assisted workflows. Adept at translating complex business and regulatory requirements into intuitive, high-performance user experiences.";
+const intro = "Software Engineer with 5+ years of experience designing and building scalable web applications across fintech, iGaming, SaaS, AI-enabled products, and compliance-driven platforms. Proficient in React, Next.js, TypeScript, Node.js, PostgreSQL, and REST API development, with experience delivering secure, high-performance applications from frontend interfaces to backend services. Skilled in system design, authentication, payments and wallet systems, database integration, and performance optimization, with production experience building serverless, edge-first applications on Cloudflare Workers.";
 
 const taglines: Tagline[] = [
     {
@@ -82,34 +82,52 @@ const taglines: Tagline[] = [
 
 const workExperiences: WorkExperience[] = [
     {
+        company: 'Sportsdey',
+        companyUrl: 'https://sportsdey.com/',
+        role: 'Full Stack Engineer',
+        startDate: 'JULY 2026',
+        endDate: 'PRESENT',
+        achievements: [
+            "Worked across the stack in a team of ~10 engineers on Sportsdey, a Nigerian sportsbook, casino, and sports media platform, spanning a React 19/TanStack Start SSR web app and a Hono + Zod/OpenAPI API in a Turborepo monorepo, running serverless on Cloudflare Workers with D1 (Drizzle ORM), KV, and R2.",
+            "Led the rewards and engagement system — bonuses, bonus codes, missions, loyalty tiers, tournaments with entry fees, and jackpots — integrating an external Bonus Engine with RSA-SHA256 signed requests and callbacks, an outbox that retries event reports up to 12 times, and a shared stake gate across 11+ provider bet paths that blocks bets breaking active bonus terms.",
+            "Redesigned the wallet ledger so bonus funds sit locked in the main wallet: real cash is staked first, winnings are locked in proportion to bonus money used, and credits are idempotent. Also worked on the kobo-denominated ledger's integrations with Paystack, Kuda, OPay, PalmPay, Monnify, and Quidax, including P2P transfers, withdrawal PINs, automated withdrawal rules, fraud flagging, and reconciliation.",
+            "Integrated the Kiron casino provider end to end, including an exact port of its PHP-style MD5 request hash, and contributed to seamless-wallet integrations with 8+ game providers (Scorpio, Slotegrator, Spribe, Swipe Games, and others) using signature- and IP-verified callbacks and idempotent transaction IDs so retried callbacks can never move money twice.",
+            "Contributed to the Data.Bet sportsbook's bet lifecycle — stake freezing and settlement, cash-out, accumulator boosts, and free bets — along with settlement-audit and repair tooling.",
+            "Built the Affnook affiliate integration (customer sync, activity reporting, hourly retry jobs, and admin reconciliation) and integrated WebEngage for analytics events, user profiles, and SMS with delivery receipts.",
+            "Worked on identity, compliance, and back-office features: better-auth sign-in (email, Google/Facebook OAuth, phone OTP via Africa's Talking), KYC document review, self-exclusion, role-based admin access, and admin APIs with Excel, PDF, and Word exports.",
+            "Contributed to a suite of 70+ unit, smoke, and end-to-end tests on the Node.js test runner with an in-memory D1 database, covering wallet atomicity, provider signing, settlement, idempotency, and withdrawals; second-highest contributor on the team with 780+ commits in 5 months."
+        ],
+    },
+    {
         company: 'Rank (YC 22)',
         companyUrl: 'https://userank.com/',
-        role: 'Frontend Engineer',
+        role: 'Lead Frontend Engineer',
         startDate: 'JUNE 2025',
-        endDate: "PRESENT",
+        endDate: 'PRESENT',
         achievements: [
-            "Led the end-to-end redevelopment of Rank's web application, delivering a scalable and maintainable frontend architecture that boosted developer velocity and product stability.",
-            "Created a unified design system and component library, improving UI consistency across the platform and reducing implementation time for new features by 30%.",
-            "Developed a dynamic, backend-driven onboarding and KYC flow using React and TypeScript, increasing verification success rates and accelerating user onboarding.",
-            "Enhanced core savings functionality with optimized frontend components and state management, leading to a measurable uptick in active usage and retention.",
-            "Increased frontend test coverage to 50% using Jest and React Testing Library, reducing regression bugs and supporting a faster, more reliable release cycle.",
-            "Improved web application performance through strategic code splitting, lazy loading, and optimized API calls, resulting in faster page load times and better user experience.",
-            "Authored technical documentation and frontend onboarding guides, reducing ramp-up time for new developers by 50%."
+            "Led the end-to-end redevelopment of Rank's consumer-facing web application — a fast-growing Nigerian fintech platform serving savings, fixed deposits, and community investment products — delivering a scalable frontend architecture that significantly improved product stability.",
+            "Built and maintained a unified design system and component library that enforced UI consistency across Rank Reserve, Rank Flex, and Fixed Deposit product surfaces, cutting implementation time for new features by 30%.",
+            "Engineered a dynamic, backend-driven KYC and face verification flow using Next.js and TypeScript, integrating both internal backend APIs and third-party verification services end-to-end and improving verification success rates while accelerating user onboarding.",
+            "Drove frontend test coverage to 80% with Jest and React Testing Library, reducing regression incidents and enabling a faster, more reliable release cadence for a financial product where reliability is critical.",
+            "Improved web application performance through code splitting, lazy loading, and API call optimization — delivering faster load times across a user base spanning Nigerian urban and semi-urban markets.",
+            "Collaborated closely with backend engineers to design API contracts, improve request performance, and ensure reliable communication between frontend and backend systems."
         ],
     },
     {
         company: 'Rylio',
+        companyUrl: 'https://www.rylio.io/',
         role: 'Lead Software Engineer',
         startDate: 'MAR 2025',
-        endDate: 'February 2026',
+        endDate: 'JAN 2026',
         achievements: [
-            "Led the end-to-end development of an ESG reporting platform, overseeing frontend architecture, backend integration, and AI-assisted features to support enterprise sustainability reporting workflows.",
+            "Led full-stack development of an ESG reporting platform, owning React/Next.js frontend architecture, Node.js backend services, PostgreSQL data modelling, and AI-assisted reporting features.",
             "Designed and implemented ESG data entry interfaces using Next.js and Tailwind CSS, enabling structured, user-friendly capture of complex environmental, social, and governance datasets.",
-            "Developed industry-specific ESG templates (Technology & Manufacturing), reducing setup time and improving reporting consistency across organizations.",
-            "Implemented a lightweight AI recommendation engine using Python-based NLP models, providing contextual ESG content suggestions and improving report quality and completeness.",
-            "Engineered AI-powered text assistance for ESG narratives, helping users generate compliant, well-structured sustainability disclosures.",
+            "Developed and maintained backend services using Node.js, designing RESTful APIs to handle ESG data processing, user management, and report generation, with efficient data modelling and structured storage for complex, nested ESG datasets.",
+            "Implemented a lightweight AI recommendation engine using Python-based NLP models, providing contextual ESG content suggestions, and engineered AI-powered text assistance helping users generate compliant, well-structured sustainability disclosures.",
             "Enabled real-time collaboration using Liveblocks, supporting section-based assignments, in-app notifications, activity tracking, and multi-user editing workflows.",
-            "Built role-based access control (Admin & Contributor) using JWT authentication, ensuring secure and structured collaboration across teams."
+            "Built role-based access control (Admin & Contributor) using JWT authentication and an admin dashboard for managing teams, users, roles, and permissions across organizations.",
+            "Designed and implemented backend logic for authentication, authorization, and user lifecycle management, including onboarding flows, invitations, and access control enforcement.",
+            "Optimized performance across frontend and backend by improving API response times, reducing unnecessary network requests, and implementing efficient data fetching and caching strategies."
         ],
     },
     {
@@ -141,44 +159,52 @@ const workExperiences: WorkExperience[] = [
     },
     {
         company: 'Upwork',
-        role: 'Frontend Developer (Freelance)',
+        role: 'Software Engineer (Freelance)',
         startDate: 'DEC 2021',
         endDate: 'PRESENT',
         achievements: [
-            "Spearheaded the development of pixel-perfect UI designs for a diverse clientele, including danritbeautysalon, JourneytoWealth, HirschKeshav, SoftwareEngineerPortfolio, BriansPortfolio, Prodlead. Utilized HTML, CSS, React, Next.js, Vue, Nuxtjs, JavaScript, Bootstrap, and Tailwind CSS to establish a strong professional online presence and deliver exceptional user experiences.",
-            "Architected and optimized a high-performing e-commerce platform using ReactJS and Next.js, achieving a 30% increase in sales and a 25% boost in user retention through the implementation of dynamic product pages, efficient payment gateways, and a seamless user experience.",
-            "Integrated third-party services and APIs to enhance platform capabilities, including real-time updates, payment processing, and social media sharing features.",
-            "Optimized front-end performance by implementing efficient coding practices, lazy loading, and caching techniques to enhance website speed and responsiveness.",
+            "Delivered full-stack web applications for a diverse clientele, including Rylio, Scoutify, CodeGuide, Singularity Finance and Lightweight, building scalable React, Next.js, Vue, and Nuxt.js applications while integrating backend services, RESTful APIs, authentication workflows, databases, and third-party platforms.",
+            "Designed and implemented scalable frontend architectures, translating business requirements into intuitive, high-performance user experiences using TypeScript, JavaScript, Tailwind CSS, and modern component-based development practices.",
+            "Developed and integrated RESTful APIs, authentication workflows (JWT/OAuth), payment gateways, analytics platforms, and real-time features to deliver secure, end-to-end functionality across multiple client projects.",
+            "Collaborated with clients to design data models, define API requirements, and implement backend functionality using Node.js, PostgreSQL, MongoDB, Prisma, Firebase, and Supabase where required.",
             "Ensured cross-browser compatibility and responsiveness across various devices and screen sizes, providing a seamless experience for all users.",
-            "Implemented and maintained UI component libraries to standardize design elements and promote consistency across multiple projects, facilitating scalability and efficiency in development processes."
+            "Maintained reusable component libraries and collaborated through Git-based workflows to ensure consistency, scalability, and efficient delivery across multiple concurrent projects."
         ],
     },
 ];
 
 const skills: Skill[] = [
     {
-        title: 'Front-end Development',
-        body: ['HTML5', 'CSS', 'Javascript (ES5 & ES6)', 'TypeScript', 'jQuery', 'SCSS'],
+        title: 'Languages',
+        body: ['JavaScript (ES6+)', 'TypeScript', 'HTML5', 'CSS3'],
     },
     {
-        title: 'Frameworks and Libraries',
-        body: ['React.js', 'Vue.js', 'Nuxtjs', 'Next.js', 'TailwindCSS', 'Material UI', 'Bootstrap', 'Shadcn UI', 'Styled-Components', 'CSS Modules', 'React-Hook-Form', 'React-Query'],
+        title: 'Frontend',
+        body: ['React.js', 'Vue.js', 'Nuxt.js', 'Next.js', 'TanStack Start', 'TailwindCSS', 'Material UI', 'Bootstrap', 'Shadcn UI', 'Radix UI', 'Styled-Components', 'CSS Modules'],
     },
     {
-        title: 'Version Control',
-        body: ['Git', 'Github', 'Bitbucket'],
+        title: 'Backend',
+        body: ['Node.js', 'Express.js', 'Hono', 'REST APIs', 'GraphQL', 'Zod/OpenAPI'],
+    },
+    {
+        title: 'Databases',
+        body: ['PostgreSQL', 'MongoDB', 'Prisma', 'Drizzle ORM', 'Cloudflare D1', 'Firebase', 'Supabase'],
     },
     {
         title: 'State Management',
-        body: ['Redux Toolkit', 'Zustand'],
+        body: ['Redux Toolkit', 'Zustand', 'TanStack Query (React Query)'],
     },
     {
         title: 'Testing',
-        body: ['Jest', 'Cypress', 'TDD (Test-Driven-Development)'],
+        body: ['Jest', 'React Testing Library', 'Cypress', 'Node.js Test Runner', 'TDD (Test-Driven Development)'],
     },
     {
-        title: 'Others',
-        body: ['MongoDB', 'Firebase', 'Supabase', 'GraphQL', 'Postgres', 'Prisma', 'Axios', 'REST API', 'CI/CD', 'Docker'],
+        title: 'Tools & Platforms',
+        body: ['Git', 'GitHub', 'Bitbucket', 'Docker', 'CI/CD', 'Cloudflare (Workers, KV, R2)', 'Turborepo', 'pnpm', 'Sanity CMS'],
+    },
+    {
+        title: 'Authentication',
+        body: ['JWT', 'OAuth', 'better-auth', 'Phone OTP'],
     },
 ];
 
@@ -186,7 +212,7 @@ const educations: Education[] = [
     {
         title: 'Bachelor of Science (Hons.) Chemistry at University of Uyo',
         startDate: 'OCT 2018',
-        endDate: 'MAY 2024',
+        endDate: 'AUG 2023',
         // relevant: [
         //     'Programming with Javascript (Meta) - September 2023',
         //     'Responsive Web Design (freeCodeCamp) - May 2022',

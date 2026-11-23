@@ -25,9 +25,9 @@ export default function Base({menu}: any) {
                                 color: '#000',
                                 opacity: 0.7,
                                 fontStyle: 'italic'
-                            }}>Software</span>
-                            <span className="highlight font-bold"> Frontend Engineer</span> who ships <span
-                            style={{color: '#000'}} className="italic font-bold">Production-ready</span> UIs.
+                            }}>Frontend</span>
+                            <span className="highlight font-bold"> Software Engineer</span> who ships <span
+                            style={{color: '#000'}} className="italic font-bold">Production-ready</span> software, end to end.
                         </span>
                     </p>
                 </div>
